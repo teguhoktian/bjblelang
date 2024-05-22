@@ -1,3 +1,4 @@
+import { Search } from "@mui/icons-material";
 import React from "react";
 
 function Navbar() {
@@ -9,7 +10,10 @@ function Navbar() {
       </div>
 
       {/* Search Bar */}
-      <div className="mx-5 w-1/3">
+      <div className="mx-5 w-1/3 relative items-center flex">
+        <div className="absolute text-gray-400 left-0 w-10 inline-flex justify-center">
+          <Search />
+        </div>
         <input
           type="text"
           className="w-full rounded-md py-2 text-sm pl-10 px-4 text-gray-500"
