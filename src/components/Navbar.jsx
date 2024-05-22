@@ -28,7 +28,7 @@ function Navbar() {
 
       {/* Login Button */}
       <div>
-        <button className="border border-blue-200 py-2 px-4 rounded-md text-white text-sm">
+        <button className="border border-blue-200 py-2 px-4 rounded-md text-white text-sm shadow-sm">
           Login/Daftar
         </button>
       </div>
