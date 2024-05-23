@@ -9,7 +9,7 @@ import React from "react";
 
 function IconNav() {
   return (
-    <div className="mx-auto pt-8 font-Roboto grid grid-cols-5 w-3/5">
+    <div className="mx-auto pt-8 font-Roboto grid lg:grid-cols-5 grid-cols-3 lg:w-3/5 gap-4">
       <a className="items-center flex flex-col">
         <Cottage fontSize="large" className="text-blue-800" />
         <span className="text-xs">Rumah</span>
