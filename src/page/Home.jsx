@@ -2,10 +2,11 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import IconNav from "../components/IconNav";
 import Popular from "../components/Popular";
+import Lelang from "../components/Lelang";
 
 function Home() {
   return (
-    <div>
+    <div className="mb-4">
       {/* Top Navigation */}
       <Navbar />
 
@@ -14,6 +15,9 @@ function Home() {
 
       {/* Populer Area */}
       <Popular />
+
+      {/*  */}
+      <Lelang />
     </div>
   );
 }
