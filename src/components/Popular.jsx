@@ -78,7 +78,7 @@ function Popular() {
       </div>
 
       {/* Body */}
-      <div className="w-full overflow-hidden overflow-x-auto lg:px-12 pl-8 ">
+      <div className="w-full overflow-hidden overflow-x-auto lg:px-12 pl-8 no-scrollbar ">
         <div className="mt-4 lg:grid lg:grid-cols-2 gap-4 flex w-[1024px] lg:w-full">
           {itemPopular.map((_, index) => (
             <div>
