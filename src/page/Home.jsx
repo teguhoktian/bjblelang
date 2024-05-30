@@ -6,7 +6,7 @@ import Lelang from "../components/Lelang";
 
 function Home() {
   return (
-    <div className="mb-4">
+    <div className="mb-4 max-w-6xl mx-auto">
       {/* Top Navigation */}
       <Navbar />
 
