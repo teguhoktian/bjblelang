@@ -3,10 +3,11 @@ import Navbar from "../components/Navbar";
 import IconNav from "../components/IconNav";
 import Popular from "../components/Popular";
 import Lelang from "../components/Lelang";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
-    <div className="mb-4 max-w-6xl mx-auto">
+    <div className="max-w-6xl mx-auto">
       {/* Top Navigation */}
       <Navbar />
 
@@ -18,6 +19,9 @@ function Home() {
 
       {/*  */}
       <Lelang />
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
